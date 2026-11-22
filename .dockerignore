@@ -1,0 +1,14 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+.env
+data/raw
+data_clean
+state
+config/users.json
+reports/*.log
+docs/screenshots
+.coverage
+coverage.xml

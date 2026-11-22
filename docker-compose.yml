@@ -1,0 +1,24 @@
+# One-command start:  docker compose up --build   ->  http://localhost:8501
+# Without any setting the app runs in offline rules mode (no LLM, no key). To use a model, set the variables in a
+# local .env file next to this file (see .env.example). The .env file is git-ignored.
+services:
+  partpilot:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      PARTPILOT_LLM_PROVIDER: ${PARTPILOT_LLM_PROVIDER:-offline}
+      PARTPILOT_MODEL: ${PARTPILOT_MODEL:-}
+      PARTPILOT_API_KEY: ${PARTPILOT_API_KEY:-}
+      # Ollama running on the host machine: PARTPILOT_BASE_URL=http://host.docker.internal:11434/v1
+      PARTPILOT_BASE_URL: ${PARTPILOT_BASE_URL:-}
+      # empty -> a random demo password is generated and printed once in the container log
+      PARTPILOT_DEMO_PASSWORD: ${PARTPILOT_DEMO_PASSWORD:-}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - partpilot-state:/app/state
+    restart: unless-stopped
+
+volumes:
+  partpilot-state:

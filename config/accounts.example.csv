@@ -1,0 +1,11 @@
+username,role,scope
+planner,planner,ALL
+po_boards,product_owner,BRD
+po_printers,product_owner,PRN
+lead_nrg,plant_lead,NRG
+lead_bhv,plant_lead,BHV
+eng_passives,component_engineer,Passives
+eng_semis,component_engineer,Semiconductors
+eng_electromech,component_engineer,Electromechanical
+eng_mech,component_engineer,Mechanical
+auditor,auditor,SYSTEM

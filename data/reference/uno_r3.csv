@@ -1,0 +1,33 @@
+assembly,refdes,qty,uom,commodity,description,manufacturer,mpn,package,value,voltage_v,tolerance_pct,dielectric,source
+UNO_PCBA,U3,1,PCS,MC,USB-to-serial MCU ATmega16U2,Microchip,ATMEGA16U2-MU,QFN32,,,,,design file (value field)
+UNO_PCBA,ZU4,1,PCS,MC,8-bit MCU ATmega328P,Microchip,ATMEGA328P-PU,DIP28,,,,,design file (deviceset)
+UNO_PCBA,"C1,C2,C4,C5,C6,C7,C10",7,PCS,CA,MLCC 100nF 0603,Murata,GRM188R71H104KA93D,0603,100nF,50,10,X7R,design file gives 100n/0603; MPN chosen by PartPilot
+UNO_PCBA,"C3,C8",2,PCS,CA,MLCC 1uF 0603,Murata,GRM188R61E105KA12D,0603,1uF,25,10,X5R,design file gives 1u/0603; MPN chosen by PartPilot
+UNO_PCBA,"C9,C11",2,PCS,CA,MLCC 22pF 0603 (crystal load),Murata,GRM1885C1H220JA01D,0603,22pF,50,5,C0G,design file gives 22p/0603; MPN chosen by PartPilot
+UNO_PCBA,"PC1,PC2",2,PCS,CA,Aluminium electrolytic 47uF SMD case D,Panasonic,EEE-FK1E470P,CASE-D,47uF,25,20,,design file gives 47u/D; MPN chosen by PartPilot
+UNO_PCBA,D1,1,PCS,DI,Rectifier diode M7 1A 1000V,Diodes Inc,S1M-13-F,SMA,,1000,,,design file gives M7/SMB
+UNO_PCBA,"D2,D3",2,PCS,DI,Switching diode,Bourns,CD1206-S01575,MINIMELF,,100,,,design file (value field)
+UNO_PCBA,F1,1,PCS,PR,PTC resettable fuse 500 mA,Bourns,MF-MSMF050-2,1812,0.5A,15,,,design file (value field)
+UNO_PCBA,ON,1,PCS,LD,LED green 0805,Kingbright,APT2012SGC,0805,,,,,design file gives GREEN/0805; MPN chosen by PartPilot
+UNO_PCBA,"L,RX,TX",3,PCS,LD,LED yellow 0805,Kingbright,APT2012SYCK,0805,,,,,design file gives YELLOW/0805; MPN chosen by PartPilot
+UNO_PCBA,U5,1,PCS,IC,Dual op-amp LMV358,Texas Instruments,LMV358IDGKR,VSSOP8,,5.5,,,design file (value field)
+UNO_PCBA,U2,1,PCS,IC,LDO regulator 3.3 V 150 mA,Texas Instruments,LP2985-33DBVR,SOT23-5,3.3V,16,,,design file (value field)
+UNO_PCBA,U1,1,PCS,IC,LDO regulator 5 V 1 A,onsemi,NCP1117ST50T3G,SOT223,5V,20,,,design file (value field)
+UNO_PCBA,IOH,1,PCS,CN,Female header 1x10 2.54 mm,Sullins,PPTC101LFBN-RC,THT,,,,,design file gives 10x1F; MPN chosen by PartPilot
+UNO_PCBA,AD,1,PCS,CN,Female header 1x6 2.54 mm,Sullins,PPTC061LFBN-RC,THT,,,,,design file gives 6x1F; MPN chosen by PartPilot
+UNO_PCBA,"IOL,POWER",2,PCS,CN,Female header 1x8 2.54 mm,Sullins,PPTC081LFBN-RC,THT,,,,,design file gives 8x1F; MPN chosen by PartPilot
+UNO_PCBA,"ICSP,ICSP1",2,PCS,CN,Male header 2x3 2.54 mm,Sullins,PRPC003DAAN-RC,THT,,,,,design file gives 3x2 M; MPN chosen by PartPilot
+UNO_PCBA,T1,1,PCS,TR,P-channel MOSFET,onsemi,FDN340P,SOT23,,20,,,design file (value field)
+UNO_PCBA,X2,1,PCS,CN,USB type-B receptacle,Amphenol,61729-0010BLF,THT,,,,,design file gives PN61729
+UNO_PCBA,X1,1,PCS,CN,DC barrel jack 2.1 mm,CUI Devices,PJ-102AH,THT,,24,,,design file gives DC21MM; MPN chosen by PartPilot
+UNO_PCBA,"R1,R2",2,PCS,RE,Resistor 1M 0603,Yageo,RC0603FR-071ML,0603,1M,75,1,,design file gives 1M/0603; MPN chosen by PartPilot
+UNO_PCBA,RN1,1,PCS,RE,Resistor array 4x10k,Bourns,CAY16-103J4LF,1206-ARRAY,10k,25,5,,design file gives 10K/CAY16
+UNO_PCBA,"RN2,RN4",2,PCS,RE,Resistor array 4x1k,Bourns,CAY16-102J4LF,1206-ARRAY,1k,25,5,,design file gives 1K/CAY16
+UNO_PCBA,RN3,1,PCS,RE,Resistor array 4x22R,Bourns,CAY16-220J4LF,1206-ARRAY,22,25,5,,design file gives 22R/CAY16
+UNO_PCBA,Y2,1,PCS,XT,Ceramic resonator 16 MHz,Murata,CSTCE16M0V53-R0,SMD-3P,16MHz,,,,design file (value field)
+UNO_PCBA,Y1,1,PCS,XT,Crystal 16 MHz HC49 SMD 18 pF load,Abracon,ABLS-16.000MHZ-B4-T,HC49-SMD,16MHz,,,,design file gives 16MHz XTAL/S; MPN chosen by PartPilot
+UNO_PCBA,L1,1,PCS,IN,Ferrite bead 0805,Murata,BLM21PG221SN1D,0805,,,,,design file gives BLM21
+UNO_PCBA,L2,1,PCS,IN,Inductor 10uH 0805,Bourns,CV201210-100K,0805,10uH,,10,,design file (deviceset)
+UNO_PCBA,"Z1,Z2",2,PCS,PR,Varistor 5 V 0603,Bourns,CG0603MLC-05E,0603,,5,,,design file (value field)
+UNO_PCBA,RESET,1,PCS,SW,Tactile switch,TE Connectivity,TS42031-160R-TR-7260,SMD,,,,,design file (value field)
+UNO_PCBA,PCB,1,PCS,PC,Bare PCB UNO Rev3 2-layer,PCB fab (synthetic),N/A,PCB,,,,,synthetic (bare board)

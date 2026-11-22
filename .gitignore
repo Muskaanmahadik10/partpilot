@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+coverage.xml
+data/raw/
+data_clean/
+state/
+config/users.json
+reports/*.log

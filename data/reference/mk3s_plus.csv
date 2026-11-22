@@ -1,0 +1,73 @@
+assembly,refdes,qty,uom,commodity,description,manufacturer,mpn,package,value,voltage_v,tolerance_pct,dielectric,source
+MK3_YAXIS,,1,PCS,FR,Y-axis frame set (aluminium extrusions + front/back plates),Prusa Research,N/A,,,,,,approximation of the public kit manual
+MK3_YAXIS,,2,PCS,ME,Smooth rod 8 x 330 mm,generic,N/A,8MM,,,,,approximation of the public kit manual
+MK3_YAXIS,,3,PCS,ME,Linear bearing LM8UU,Misumi,LM8UU,8MM,,,,,approximation of the public kit manual
+MK3_YAXIS,,0.65,M,ME,GT2 timing belt 6 mm (Y),Gates,GT2-6MM,6MM,,,,,approximation of the public kit manual
+MK3_YAXIS,,1,PCS,ME,GT2 pulley 16 teeth,generic,GT2-16T-5MM,5MM,,,,,approximation of the public kit manual
+MK3_YAXIS,,2,PCS,ME,Ball bearing 623h,generic,623H,3MM,,,,,approximation of the public kit manual
+MK3_YAXIS,,1,PCS,MO,Stepper motor NEMA17 (Y),LDO Motors,N/A,NEMA17,,,,,approximation of the public kit manual
+MK3_YAXIS,,1,PCS,PT,Printed part y-motor-holder,Prusa Research,y-motor-holder.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_YAXIS,,1,PCS,PT,Printed part y-belt-idler,Prusa Research,y-belt-idler.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_YAXIS,,4,PCS,PT,Printed part y-rod-holder,Prusa Research,y-rod-holder.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_YAXIS,,1,PCS,PT,Printed part y-belt-holder,Prusa Research,y-belt-holder.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_YAXIS,,1,PCS,PT,Printed part y-belt-tensioner,Prusa Research,y-belt-tensioner.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_YAXIS,,24,PCS,ME,Screw M3x10 hex socket,generic,ISO4762-M3X10,M3,,,,,approximation of the public kit manual
+MK3_XAXIS,,2,PCS,ME,Smooth rod 8 x 370 mm,generic,N/A,8MM,,,,,approximation of the public kit manual
+MK3_XAXIS,,7,PCS,ME,Linear bearing LM8UU,Misumi,LM8UU,8MM,,,,,approximation of the public kit manual
+MK3_XAXIS,,0.85,M,ME,GT2 timing belt 6 mm (X),Gates,GT2-6MM,6MM,,,,,approximation of the public kit manual
+MK3_XAXIS,,1,PCS,ME,GT2 pulley 16 teeth,generic,GT2-16T-5MM,5MM,,,,,approximation of the public kit manual
+MK3_XAXIS,,2,PCS,ME,Ball bearing 623h,generic,623H,3MM,,,,,approximation of the public kit manual
+MK3_XAXIS,,1,PCS,MO,Stepper motor NEMA17 (X),LDO Motors,N/A,NEMA17,,,,,approximation of the public kit manual
+MK3_XAXIS,,1,PCS,PT,Printed part x-end-idler,Prusa Research,x-end-idler.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_XAXIS,,1,PCS,PT,Printed part x-end-motor,Prusa Research,x-end-motor.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_XAXIS,,1,PCS,PT,Printed part x-carriage,Prusa Research,x-carriage.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_XAXIS,,1,PCS,PT,Printed part x-carriage-back,Prusa Research,x-carriage-back.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_XAXIS,,18,PCS,ME,Screw M3x10 hex socket,generic,ISO4762-M3X10,M3,,,,,approximation of the public kit manual
+MK3_ZAXIS,,2,PCS,MO,Stepper motor NEMA17 with integrated TR8x8 leadscrew (Z),LDO Motors,N/A,NEMA17,,,,,approximation of the public kit manual
+MK3_ZAXIS,,2,PCS,ME,Trapezoidal nut TR8x8,generic,N/A,TR8,,,,,approximation of the public kit manual
+MK3_ZAXIS,,2,PCS,ME,Smooth rod 8 x 320 mm,generic,N/A,8MM,,,,,approximation of the public kit manual
+MK3_ZAXIS,,2,PCS,PT,Printed part z-axis-top,Prusa Research,z-axis-top.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ZAXIS,,2,PCS,PT,Printed part z-axis-bottom,Prusa Research,z-axis-bottom.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ZAXIS,,2,PCS,PT,Printed part z-screw-cover,Prusa Research,z-screw-cover.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ZAXIS,,12,PCS,ME,Screw M3x10 hex socket,generic,ISO4762-M3X10,M3,,,,,approximation of the public kit manual
+MK3_EXTRUDER,,1,PCS,MO,Stepper motor NEMA17 (extruder),LDO Motors,N/A,NEMA17,,,,,approximation of the public kit manual
+MK3_EXTRUDER,,1,PCS,ME,Dual drive gear set,Bondtech,N/A,5MM,,,,,approximation of the public kit manual
+MK3_EXTRUDER,,1,PCS,FN,Hotend fan 40x10 mm 5 V,Noctua,NF-A4x10 5V,40MM,,5,,,approximation of the public kit manual
+MK3_EXTRUDER,,1,PCS,FN,Print fan blower 5015 5 V,generic,N/A,50MM,,5,,,approximation of the public kit manual
+MK3_EXTRUDER,,1,PCS,SN,Inductive bed probe SuperPINDA,Prusa Research,N/A,M8,,5,,,approximation of the public kit manual
+MK3_EXTRUDER,,1,PCS,SN,IR filament sensor board,Prusa Research,N/A,PCB,,5,,,approximation of the public kit manual
+MK3_EXTRUDER,,0.05,M,ME,PTFE tube 4 x 2 mm,generic,N/A,4MM,,,,,approximation of the public kit manual
+MK3_EXTRUDER,,2,PCS,ME,Neodymium magnet 10x6x2 mm,generic,N/A,10MM,,,,,approximation of the public kit manual
+MK3_EXTRUDER,,1,PCS,PT,Printed part extruder-body,Prusa Research,extruder-body.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_EXTRUDER,,1,PCS,PT,Printed part extruder-cover,Prusa Research,extruder-cover.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_EXTRUDER,,1,PCS,PT,Printed part extruder-idler,Prusa Research,extruder-idler.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_EXTRUDER,,1,PCS,PT,Printed part extruder-motor-plate,Prusa Research,extruder-motor-plate.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_EXTRUDER,,1,PCS,PT,Printed part fan-shroud,Prusa Research,fan-shroud.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_EXTRUDER,,1,PCS,PT,Printed part print-fan-support,Prusa Research,print-fan-support.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_EXTRUDER,,1,PCS,PT,Printed part fs-lever,Prusa Research,fs-lever.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_EXTRUDER,,16,PCS,ME,Screw M3x10 hex socket,generic,ISO4762-M3X10,M3,,,,,approximation of the public kit manual
+MK3_HOTEND,,1,PCS,HT,Heater block V6,E3D,N/A,V6,,,,,approximation of the public kit manual
+MK3_HOTEND,,1,PCS,HT,Heatbreak V6 1.75 mm,E3D,N/A,V6,,,,,approximation of the public kit manual
+MK3_HOTEND,,1,PCS,HT,Heatsink V6,E3D,N/A,V6,,,,,approximation of the public kit manual
+MK3_HOTEND,,1,PCS,HT,Nozzle V6 brass 0.4 mm,E3D,N/A,V6,,,,,approximation of the public kit manual
+MK3_HOTEND,,1,PCS,HT,Heater cartridge 24 V 40 W,generic,N/A,6MM,,24,,,approximation of the public kit manual
+MK3_HOTEND,,1,PCS,SN,Hotend thermistor 100k NTC,Semitec,104NT-4-R025H42G,GLASS,,,,,approximation of the public kit manual
+MK3_HOTEND,,1,PCS,HT,Silicone sock V6,E3D,N/A,V6,,,,,approximation of the public kit manual
+MK3_ELECTRONICS,,1,PCS,MD,Mainboard Einsy RAMBo 1.1a (bought module),Ultimachine,N/A,MODULE,,24,,,bought module (design files published by Ultimachine)
+MK3_ELECTRONICS,,1,PCS,MD,Power supply 240 W 24 V,Delta Electronics,N/A,MODULE,,24,,,approximation of the public kit manual
+MK3_ELECTRONICS,,1,PCS,MD,LCD 20x4 with rotary encoder board,Prusa Research,N/A,MODULE,,5,,,approximation of the public kit manual
+MK3_ELECTRONICS,,1,PCS,PT,Printed part Einsy-base,Prusa Research,Einsy-base.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ELECTRONICS,,1,PCS,PT,Printed part Einsy-doors,Prusa Research,Einsy-doors.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ELECTRONICS,,1,PCS,PT,Printed part Einsy-hinges,Prusa Research,Einsy-hinges.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ELECTRONICS,,1,PCS,PT,Printed part LCD-knob,Prusa Research,LCD-knob.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ELECTRONICS,,2,PCS,PT,Printed part lcd-supports,Prusa Research,lcd-supports.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ELECTRONICS,,1,PCS,PT,Printed part psu-cover-DELTA,Prusa Research,psu-cover-DELTA.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_ELECTRONICS,,1.2,M,CB,Textile cable sleeve 8 mm,generic,N/A,8MM,,,,,approximation of the public kit manual
+MK3_HEATBED,,1,PCS,HT,Magnetic heatbed MK52 24 V,Prusa Research,N/A,MK52,,24,,,approximation of the public kit manual
+MK3_HEATBED,,1,PCS,ME,Spring steel sheet smooth PEI,Prusa Research,N/A,MK52,,,,,approximation of the public kit manual
+MK3_HEATBED,,1,PCS,SN,Heatbed thermistor 100k NTC,generic,N/A,GLASS,,,,,approximation of the public kit manual
+MK3_HEATBED,,1,PCS,PT,Printed part heatbed-cable-cover,Prusa Research,heatbed-cable-cover.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_HEATBED,,1,PCS,PT,Printed part heatbed-cable-cover-clip,Prusa Research,heatbed-cable-cover-clip.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_TOP,,1,PCS,FR,Main frame aluminium 6 mm,Prusa Research,N/A,,,,,,approximation of the public kit manual
+MK3_TOP,,1,PCS,PT,Printed part Spool-holder,Prusa Research,Spool-holder.stl,PETG,,,,,printed-part list of the GPL-2.0 design repo
+MK3_TOP,,1,PCS,ME,Bearing lubricant tube,generic,N/A,TUBE,,,,,approximation of the public kit manual
