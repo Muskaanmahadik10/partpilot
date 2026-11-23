@@ -56,7 +56,7 @@ def login_view():
         with st.form("login"):
             u = st.text_input("Username", placeholder="planner")
             p = st.text_input("Password", type="password")
-            ok = st.form_submit_button("Log in", use_container_width=True)
+            ok = st.form_submit_button("Log in", width="stretch")
         if ok:
             user = auth.login(u, p)
             if user:
@@ -73,7 +73,7 @@ def login_view():
             ("lead_nrg / lead_bhv", "Plant Materials Lead", "own plant's stock and POs"),
             ("eng_passives / eng_semis / ...", "Component Engineer", "own commodity group, approves substitutes"),
             ("auditor", "Auditor", "audit metadata and cleaning job, no parts data")],
-            columns=["username", "role", "sees"]), hide_index=True, use_container_width=True)
+            columns=["username", "role", "sees"]), hide_index=True, width="stretch")
 
 
 def sidebar(user):
@@ -92,11 +92,11 @@ def sidebar(user):
             pages = ["Audit", "Data quality"]
         page = st.radio("Page", pages, label_visibility="collapsed")
         st.divider()
-        if st.button("New conversation", use_container_width=True):
+        if st.button("New conversation", width="stretch"):
             st.session_state.conv = Conversation(user)
             st.session_state.history = []
             st.rerun()
-        if st.button("Log out", use_container_width=True):
+        if st.button("Log out", width="stretch"):
             for k in ("user", "conv", "history"):
                 st.session_state.pop(k, None)
             st.rerun()
@@ -153,10 +153,10 @@ def review_page(user):
                 st.caption(str(p["detail"]))
                 if p.get("remark_for_humans"):
                     st.warning(f"Remark (human-only, has no approval authority): {p['remark_for_humans']}")
-            if c2.button("Approve", key=f"a{p['id']}", use_container_width=True):
+            if c2.button("Approve", key=f"a{p['id']}", width="stretch"):
                 review.decide(user, p["id"], "approve")
                 st.rerun()
-            if c3.button("Reject", key=f"r{p['id']}", use_container_width=True):
+            if c3.button("Reject", key=f"r{p['id']}", width="stretch"):
                 review.decide(user, p["id"], "reject")
                 st.rerun()
 
@@ -172,7 +172,7 @@ def audit_page(user):
         c2.metric("Denied tool calls", int(df["denied_tool_calls"].sum()))
         c3.metric("Avg latency (s)", round(df["seconds"].fillna(0).mean(), 1))
         c4.metric("Est. cost (USD)", round(df["cost_usd"].fillna(0).sum(), 4))
-        st.dataframe(df.iloc[::-1], hide_index=True, use_container_width=True)
+        st.dataframe(df.iloc[::-1], hide_index=True, width="stretch")
     else:
         st.info("No questions logged yet.")
     if st.button("Run cleaning job"):
