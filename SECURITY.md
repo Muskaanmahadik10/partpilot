@@ -8,7 +8,7 @@ PartPilot is a portfolio project maintained by one person. Only the latest commi
 
 Please report security problems privately, not in a public issue:
 
-1. Open the repository's **Security** tab and choose **Report a vulnerability**.
+1. Open <https://github.com/Muskaanmahadik10/partpilot/security/advisories/new> ("Report a vulnerability" on the repository's **Security** tab).
 2. Describe the problem, the affected file, and the steps to reproduce it.
 
 If private reporting is unavailable, open a public issue that says only that you have a security report and asks for a private contact. Do not include details in that issue.
